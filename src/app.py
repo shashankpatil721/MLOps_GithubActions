@@ -2,7 +2,7 @@ import numpy as np
 import pytest
 
 
-PI = 3.1415
+PI = 3.14159265358979
 
 def areaRectangle(len,breadth):
     return len*breadth;
