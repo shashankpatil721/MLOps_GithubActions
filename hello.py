@@ -1,2 +1,0 @@
-def printHeloo():
-    print("Heloo");

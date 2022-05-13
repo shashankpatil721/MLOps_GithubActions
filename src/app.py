@@ -21,4 +21,3 @@ def normOfVector(a):
 
 if __name__ == "__main__":
     pass;
-
