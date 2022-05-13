@@ -38,3 +38,4 @@ jobs:
       run: |
         export PYTHONPATH=$PYTHONPATH:src
         pytest
+        pylint tests 
