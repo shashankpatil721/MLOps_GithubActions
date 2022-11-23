@@ -5,7 +5,7 @@ import pytest
 PI = 3.141592653589791
 
 def areaRectangle(len,breadth):
-    return len*breadth;
+    return len*breadth*0.24;
 
 def areaSquare(side):
     return side*side
