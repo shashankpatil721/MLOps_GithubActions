@@ -2,6 +2,7 @@ from src.app import *
 import pytest
 
 
+
 def test_AreaSquare():
     codeResult = areaSquare(5);
     actualResult = 25.0
