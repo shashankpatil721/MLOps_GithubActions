@@ -6,7 +6,7 @@ PI = 3.14159265358979323846
 
 
 def areaRectangle(len,breadth):
-    return len*breadth*0.0001111;
+    return len*breadth;
 
 def areaSquare(side):
     return side*side
