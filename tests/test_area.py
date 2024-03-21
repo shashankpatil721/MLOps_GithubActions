@@ -19,6 +19,14 @@ def test_AreaCircle():
         val = 'pass'
     assert val == 'pass'
 
+def test_areaRectangle():
+    codeResult = areaRectangle(2,3);
+    actualResult = 6.0;
+    val = 'fail'
+    if(abs(codeResult - actualResult) < 1e-2 ):
+        val = 'pass'
+    assert val == 'pass'
+
 def test_AreaTriangle():
     codeResult = areaTriangle(1,1);
     actualResult = 0.5;
@@ -35,8 +43,8 @@ def test_Norm():
         val = 'pass'
     assert val == 'pass'
 
-if __name__ == "__main__":
-    test_AreaSquare();
-    test_AreaCircle();
-    test_AreaTriangle();
-    test_Norm();
+# if __name__ == "__main__":
+#     test_AreaSquare();
+#     test_AreaCircle();
+#     test_AreaTriangle();
+#     test_Norm();
