@@ -1,4 +1,4 @@
-import numpy as np 
+import numpy as np
 import pytest
 
 
@@ -19,6 +19,8 @@ def areaTriangle(b,h):
 
 def normOfVector(a):
     return np.linalg.norm(a,2);
+
+print("hello world")
 
 if __name__ == "__main__":
     pass;
